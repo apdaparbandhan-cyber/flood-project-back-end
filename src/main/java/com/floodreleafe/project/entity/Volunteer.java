@@ -34,7 +34,7 @@ public class Volunteer {
     private String status;    // PENDING, APPROVED, REJECTED
 
     @Lob
-    @Column(columnDefinition = "LONGTEXT")
+    @Column(columnDefinition = "TEXT")
     private String photo;     // Base64 Data URL format
 
     private String appliedAt;

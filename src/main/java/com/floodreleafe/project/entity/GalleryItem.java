@@ -20,6 +20,6 @@ public class GalleryItem {
     private String tag;
 
     @Lob
-    @Column(columnDefinition = "LONGTEXT", nullable = false)
+    @Column(columnDefinition = "TEXT", nullable = false)
     private String img;
 }
